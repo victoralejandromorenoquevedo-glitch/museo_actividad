@@ -2,7 +2,7 @@ package es.fplumara.dam1.museo;
 
 import java.time.LocalDate;
 
-public class EntradaEstudiante extends Entrada{
+public class EntradaEstudiante extends Entrada implements Descontable{
 	
 	private String centroEducativo;
 	
